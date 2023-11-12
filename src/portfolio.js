@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Sadiq's Portfolio",
   description:
-    "I am pursuing my Master’s in Computer Science. Previously worked as an Operation Executive in Infosys Limited. Graduated in Computer Science from Mumbai University having hands-on experience Application development website development. Seeking a position in a Cyber Security role where I can utilize my skills and abilities to the advantage of the organization while having scope for personal development and learning. ",
+    "Currently pursuing my Master’s in Computer Science. Previously worked as an Operation Executive in Infosys Limited. Graduated in Computer Science from Mumbai University having hands-on experience Application development website development. Seeking a position in a Cyber Security domain role where I can utilize my skills and abilities to the advantage of the organization while having scope for personal development and learning.",
   og: {
     title: "Sadiq Sonalkar Portfolio",
     type: "website",
@@ -22,7 +22,7 @@ const greeting = {
   logo_name: "Sadiq Sonalkar",
   nickname: "SwordX",
   subTitle:
-    "I am pursuing my Master’s in Computer Science. Previously worked as an Operation Executive in Infosys Limited. Graduated in Computer Science from Mumbai University having hands-on experience Application development website development. Seeking a position in a Cyber Security role where I can utilize my skills and abilities to the advantage of the organization while having scope for personal development and learning.",
+    "Currently pursuing my Master’s in Computer Science. Previously worked as an Operation Executive in Infosys Limited. Graduated in Computer Science from Mumbai University having hands-on experience Application development website development. Seeking a position in a Cyber Security domain role where I can utilize my skills and abilities to the advantage of the organization while having scope for personal development and learning.",
   resumeLink:
     "https://drive.google.com/file/d/1k3NmsF-D1qycJQzdMTHGMgKzlRLnVjAq/view?usp=sharing",
   portfolio_repository: "https://github.com/sadiqsonalkar",
@@ -90,13 +90,15 @@ const skills = {
       title: "Skill Set",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Cyber Security Tools :  Kali Linux, Metasploitable, Burpsuite, Nessus, NMAP, Shodan, Virus Makers, and many more.",
+        "⚡ Cyber Security Tools :  Kali Linux, Metasploit, Burpsuite, Nessus, NMAP, Shodan, Virus Makers, tcpdump, Wireshark and many more.",
         "⚡ Cyber Security  : VAPT, Web Application Security, Ethical Hacking, Network security",
         "⚡ Web development	:	HTML, CSS, JavaScript",
         "⚡ Database	:	MySQL, Oracle, MongoDB",
         "⚡ Languages	:	Python, Java",
         "⚡ Operating system	:	Windows, Linux",
         "⚡ Good Intrusion Detection Skill",
+        "⚡ Configuring and Updating Microsoft Windows Defender and Firewall",
+        "⚡ Utilized tcpdump and Wireshark to analysis packets",
         "⚡ Android Application & Web Developer",
         "⚡ Comprehensive problem-solving abilities, Excellent verbal and written communication skills, Ability to deal with people diplomatically, willingness to learn, Team facilitator.",
       ],
@@ -145,13 +147,6 @@ const skills = {
           },
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#FF7800",
-          },
-        },
-        {
           skillName: "Windows",
           fontAwesomeClassname: "simple-icons:windows",
           style: {
@@ -173,7 +168,7 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "⚡ Cyber Security:",
-        "Kali: 60%, Metasploitable: 70%, BurpSuite: 55%, Nessus: 60%",
+        "Kali: 60%, Metasploitable: 70%, BurpSuite: 55%, Nessus: 60%, NMAP: 60%, Wireshark:70%",
         "⚡ Web development:",
         "HTML: 90%, CSS: 70%, JavaScript: 55%",
         "⚡ Database:",
@@ -240,7 +235,7 @@ const degrees = {
       alt_name: "M.U.",
       duration: "2018 - 2021",
       descriptions: [
-        "⚡I did my  Graduates in Computer Science with Distinction CGPA.",
+        "⚡I did my Graduation in Computer Science with Distinction CGPA.",
         "⚡Participated and volunteered SynTech-X fest of our department.",
         "⚡Made 2 project in Android Studio using Java.",
       ],
@@ -253,9 +248,9 @@ const degrees = {
       alt_name: "R.D.N.C.",
       duration: "2017 - 2018",
       descriptions: [
-        "⚡Passed my Higher Secondary Certificate with First Class honours .",
+        "⚡Passed my Higher Secondary Certificate with First Class honours.",
         "⚡Participated in Athletics event of our College Fest.",
-        "⚡Was runner-up in Chess event of our College Fest. .",
+        "⚡Was runner-up in Chess event of our College Fest.",
       ],
       website_link: "https://rdnational.ac.in/#!home.html",
     },
@@ -266,7 +261,7 @@ const degrees = {
       alt_name: "STHS",
       duration: "2015 - 2016",
       descriptions: [
-        "⚡Passed my Secondary School Certificate with First Class honours .",
+        "⚡Passed my Secondary School Certificate with First Class honours.",
         "⚡Participated in many school event.",
       ],
       website_link: "https://theresianboyz.in/",
@@ -276,7 +271,43 @@ const degrees = {
 };
 
 const certifications = {
-  certifications: [
+  certifications: [   
+    {
+      title: "Junior Cybersecurity Analyst Career Path",
+      subtitle: "CISCO",
+      logo_path: "cisco.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/1rFHBdnd297ArNCBAXRvoGwhVee0sb2GZ/view?usp=sharing",
+      alt_name: "CISCO",
+      color_code: "#FFFFFF",
+    },  
+    {
+      title: "Network Support and Security",
+      subtitle: "CISCO",
+      logo_path: "cisco.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/1fBLZsbkh5RXnDlpLphZnYLwCKGv4hfsy/view?usp=sharing",
+      alt_name: "CISCO",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Networking Basics",
+      subtitle: "CISCO",
+      logo_path: "cisco.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/1fT1maTTRNZAf_5_HCSw5SXrHh1jzMc2F/view?usp=sharing",
+      alt_name: "CISCO",
+      color_code: "#FFFFFF",
+    },  
+    {
+      title: "Introduction to Cyber Security",
+      subtitle: "CISCO",
+      logo_path: "cisco.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/1Di02ZH-73xjlx1NeyUJo1a68hstrr3Td/view?usp=sharing",
+      alt_name: "CISCO",
+      color_code: "#FFFFFF",
+    }, 
     {
       title: "Ethical Hacking Essentials",
       subtitle: "EC-COUNCIL",
@@ -287,15 +318,6 @@ const certifications = {
       color_code: "#FFFFFF",
     },    
     {
-      title: "Introduction to Cyber Security",
-      subtitle: "CISCO",
-      logo_path: "cisco.jpg",
-      certificate_link:
-        "https://drive.google.com/file/d/1Di02ZH-73xjlx1NeyUJo1a68hstrr3Td/view?usp=sharing",
-      alt_name: "CISCO",
-      color_code: "#FFFFFF",
-    },    
-    {
       title: "Certified SOC Analyst",
       subtitle: "SIEM XPERT",
       logo_path: "SX.png",
@@ -303,25 +325,7 @@ const certifications = {
         "https://drive.google.com/file/d/1_d0Tqvq7zwbPHcd0ZOAJoISe1j286GS1/view?usp=sharing",
       alt_name: "SIEM XPERT",
       color_code: "#FFFFFF",
-    },    
-    {
-      title: "Cyber Security",
-      subtitle: "SkillVertex",
-      logo_path: "SV.jpeg",
-      certificate_link:
-        "https://drive.google.com/file/d/1c6w4ylEYroaFvj-ltW7mrQe-BB2ukZRJ/view?usp=sharing",
-      alt_name: "SkillVertex",
-      color_code: "#FFFFFF",
-    },    
-    {
-      title: "Introduction to Cyber Security",
-      subtitle: "Great Learning",
-      logo_path: "gl.jpg",
-      certificate_link:
-        "https://drive.google.com/file/d/1L4uVcbYObjLBEmdPHZzv_yaj9IFKLs_C/view?usp=sharing",
-      alt_name: "Great learning",
-      color_code: "#FFFFFF",
-    },
+    },        
     {
       title: "Scrum Fundamentals Certified",
       subtitle: "VMEdu, Inc.",
@@ -358,7 +362,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
   description:
-    "I have worked as an operation executive in Infosys Limited. I was trained as Network Administrator where I was thought all of the operations of netwroking.",
+    "I have worked as an operation executive in Infosys Limited. Had training as Network Administrator where I learned all of the operations of networking. Then did internship and learn concept of hacking and cyber security.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -373,6 +377,39 @@ const experience = {
           location: "Pune, Maharashtra",
           description:
           "Successfully completed 3 months of training in Network Operation System. Worked on the largest Network service provider company in Singapore. Part of customer service and support team with the role of service delivery executive for global delivery, enterprise data & managed services. Acts as liaison between sales teams to ensure that all orders meet order review and processing criteria.",
+          color: "#0879bf",
+        },
+        {
+          title: "Intern",
+          company: "SENSELEARNER TECHNOLOGIES",
+          company_url: "https://senselearner.com/",
+          logo_path: "SL.jpg",
+          duration: "Sept 2023 - Nov 2023",
+          location: "Pune, Maharashtra",
+          description:
+            "Completed various tasks, including conducting research and crafting an article emphasizing the importance of cybersecurity in today's digital landscape. Conducted in-depth information gathering on Senselearner.com, resulting in a comprehensive OSINT report. Conducted research and produced an article highlighting Nmap commands and scanning tools. Conducted research and composed an article focusing on CVE, CWE, NVD, and SANS TOP 25. Conducted extensive research on exploitation techniques, mitigation strategies, and emerging solutions. Crafted an article discussing zero-day attacks, types of malwares, and recently discovered attack methods. Applied my skills to complete the OWASP Top 10 lab on TryHackMe.",
+          color: "#0879bf",
+        },
+        {
+          title: "Intern",
+          company: "THECYBERHOST",
+          company_url: "https://the-cyberhost.com/",
+          logo_path: "TCH.jpeg",
+          duration: "Aug 2023 - Sept 2023",
+          location: "Pune, Maharashtra",
+          description:
+            "Had the privilege of working on Android App Penetration Testing on a Vulnerable app called AndroGoat. Found many vulnerabilities such as Network Intercepting, IDOR, Input Validations, Hardcode issues, Root Detection Bypass, Emulator Bypass and many more. Honed my skills in identifying vulnerabilities, assessing security risks, and recommending robust solutions to safeguard mobile applications. Conducting in-depth vulnerability assessments and penetration testing, contributing to the enhancement of cybersecurity measures. Participating in brainstorming sessions and team meetings, where I had the opportunity to contribute amazing ideas and learn from seasoned professionals.",
+          color: "#0879bf",
+        },
+        {
+          title: "Intern",
+          company: "SkillVERTEX",
+          company_url: "https://www.skillvertex.com/",
+          logo_path: "SV2.jpg",
+          duration: "March 2023 - May 2023",
+          location: "Pune, Maharashtra",
+          description:
+            "Created a Web Penetration Testing Report on Acunetix Acuart Website. Found a lots of Vulnerabilities and provide a solution to those Vulnerabilities. Learned all the fundamental concepts and applications of Cyber Security. Learned a lot of topics, including network security, cryptography, threat analysis, risk management, and other related fields. Do practical of Ethical Hacking i.e., Reconnaissance, Scanning, Gaining & Maintaining Access, Worms, Viruses & Trojan, System Security, Web & Network Security.",
           color: "#0879bf",
         },
         {
@@ -395,7 +432,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. I have a very good hand-ons in JAVA,HTML and CSS.",
+    "My projects makes use of vast variety of latest technology tools. I have a very good hand-ons in JAVA,HTML and CSS. I have created a Pentesting report on Acuart, a Vulnerability Assessment on AndroGoat Application.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -412,35 +449,35 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       name: "Participated in Chess event",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "I have participated in Chess event and achieved 3 position ",
+      description: "I have participated in Chess event and achieved 3rd position.",
 
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
       name: "Volunteer for Hospitality team for 3 years",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Volunteer for Hospitality team for all the 3 years in College Fest",
+      description: "Volunteer for Hospitality team for all the 3 years in College Fest.",
 
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
       name: "Joint-Head of Chess Event",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Was a joint Head of Chess event in College Fest ",
+      description: "Was a joint Head of Chess event in College Fest.",
 
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
       name: "Runner-Up in Athletics",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Was 2 runner-up in Athletics for the College Annual Day",
+      description: "Was 2 runner-up in Athletics for the College Annual Day.",
 
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
       name: "Particpated in Photography Competition",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Have Particpated in Photography Competition",
+      description: "Have Particpated in Photography Competition.",
 
     },
   ],
