@@ -1,0 +1,36 @@
+{
+	"title": "Experience",
+	"subtitle": "Work and Volunteership",
+	"description":
+	"I have worked as an operation executive in Infosys Limited. I was trained as Network Administrator where I was thought all of the operations of netwroking.",
+	"header_image_path": "experience.svg",
+	"sections": [
+		{
+			"title": "Work and Volunteer",
+			"experiences": [
+				{
+					"title": "Service Delivery Executive",
+					"company": "Infosys Limited",
+					"company_url": "https://www.infosys.com/",
+					"logo_path": "infosys.png",
+					"duration": "July 2021 - June 2022",
+					"location": "Pune, Maharashtra",
+					"description":
+					"Successfully completed 3 months of training in Network Operation System. Worked on the largest Network service provider company in Singapore. Part of customer service and support team with the role of service delivery executive for global delivery, enterprise data & managed services. Acts as liaison between sales teams to ensure that all orders meet order review and processing criteria.",
+					"color": "#0879bf"
+				  },
+				  {
+					"title": "Head of Event",
+					"company": "R.D. National College",
+					"company_url": "https://rdnational.ac.in/",
+					"logo_path": "RDNC.png",
+					"duration": "June 2018 - May 2021",
+					"location": "Mumbai, Maharashtra",
+					"description":
+					  "Head of Chess Event for 2 years. And a volunter for hospitality team for 3 years. Participated in Chess in different college.",
+					"color": "#0879bf"
+				  }
+			]
+		}
+	]
+}
